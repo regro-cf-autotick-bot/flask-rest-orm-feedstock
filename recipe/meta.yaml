@@ -1,6 +1,6 @@
 {% set name = "flask-rest-orm" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "e7a4ac59a70109687b0904eb36b81b04f6b2372ae013e280959d1e1d01f8af39" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "5537b30f1f7b3e8cc28f17f289aa601272256fd97a14fb9beca4ca2fbf5c3f73" %}
 
 package:
   name: {{ name|lower }}
