@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   skip: True  # [py<35]
-  script: python -m pip install --no-deps --ignore-installed .
+  script: python -m pip install .
 
 requirements:
   build:
@@ -24,7 +24,7 @@ requirements:
     - python
     - sqlalchemy >=1.1
     - flask-restful >=0.3
-    - flask_sqlalchemy >=2.3.0
+    - flask-sqlalchemy >=2.3.0
 
 test:
   imports:
