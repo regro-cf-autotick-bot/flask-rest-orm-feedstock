@@ -1,6 +1,6 @@
 {% set name = "flask-rest-orm" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "a2677bc08a98cfa4504f5a90195ab15cb438579b04aeeffc38a50b1cae88e12e" %}
+{% set version = "0.13.0" %}
+{% set sha256 = "d761bb9e66e612fc6f08feb1f1546dbfb630769d5f7ce394e1aa7bc5bd666b65" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   skip: True  # [py<35]
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
